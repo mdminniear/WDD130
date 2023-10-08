@@ -42,10 +42,16 @@ header {
 }
 
 nav a:hover {
-    background-color: #78c5d7;
+    background-color: #134266;
+    color: white;
 }
 
-nav a, nav a:hover, .home-title, h4, .book, .join, .book:hover, .join:hover, .msg h2, .msg p, footer a, footer a:hover {
-    background-color: black;
-    color: #d9c2a3;
+nav a {
+    background-color: #78c5d7;
+    color: #134266;
+    text-decoration: none;
+}
+
+.icon {
+    width: 80px;
 }
