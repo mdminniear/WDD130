@@ -33,16 +33,16 @@ nav, #hero-msg h1, #hero-msg h4, .button-box, main section {
 }
 
 body {
-    background-color: var(--accent2-color);
+    background-color: white;
     font-family: sans-serif;
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: #134266;
 }
 
 nav a:hover {
-    background-color: var(--secondary-color);
+    background-color: #78c5d7;
 }
 
 img.hero-img, img.mountains {
