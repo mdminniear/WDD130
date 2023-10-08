@@ -34,6 +34,7 @@ nav, #hero-msg h1, #hero-msg h4, .button-box, main section {
 
 body {
     background-color: var(--accent2-color);
+    font-family: sans-serif;
 }
 
 header {
