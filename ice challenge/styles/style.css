@@ -1,0 +1,16 @@
+.circles div {
+    margin: 0 auto;
+    width:100% ;
+    max-width: 1600px;
+}
+
+.ice img {
+    width:30% ;
+    margin: 0 auto;
+    display: inline;
+    border-radius: 50%;
+}
+
+.ice {
+    margin: 0 auto;
+}
