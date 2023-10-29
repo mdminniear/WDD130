@@ -27,6 +27,8 @@ div.content {
 }
 nav, #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
+    font-size: 18px;
+    
 }
 #background {
     height: 725px;
