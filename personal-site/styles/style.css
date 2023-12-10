@@ -1,0 +1,76 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #68D89B   ;
+    --secondary-color: #4F9D69 ;
+    --accent1-color: #8DFFCD;
+    --accent2-color: #BCFFDB;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "sans-serif";
+    --paragraph-font: "sans-serif";
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #4F9D69;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #4F9D69; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #4F9D69  ;
+    --nav-link-color: #4F9D69;
+    --nav-background-color: white;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #4F9D69;
+  }
+
+nav a:hover {
+    background-color: #4F9D69;
+    color: #BCFFDB;
+}
+
+nav a {
+    margin: 60px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.logo {
+    width: 40%;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+footer {
+    background-color: #4F9D69;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.vinyl {
+    width: 30%;
+}
+
+.mic {
+    width: 30%;
+}
+
+p {
+    margin: 10%;
+}
+
+.vis {
+    margin-left: 20%;
+}
+
+h3 {
+    text-align: center;
+}
